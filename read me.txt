@@ -1,0 +1,4 @@
+Admin login:
+localhost/projectname/admin
+Username:admin
+Password:123

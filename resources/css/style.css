@@ -1,0 +1,33 @@
+.logo{
+height:120px;
+width:200px;
+float:left;	
+margin-left:20px;
+margin-top:10px;
+
+}
+.header{
+height:88px;
+width:900px;
+float:left;
+font-size:33px;
+margin-left:20px;
+padding-top:32px;
+color:blue;
+text-shadow: 2px 2px green;	
+text-decoration:underline;
+}
+.slider{
+height:530px;
+width:700px;
+
+float:left;
+margin-top:50px;
+margin-bottom:50px;
+margin-left:100px;
+border:10px solid black;
+	
+	
+	
+	
+}

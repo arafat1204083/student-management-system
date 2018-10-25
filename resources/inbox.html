@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Theme Resoft</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,500" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+	<div class="row">
+	 <!-- Site title-->
+	<div class="col-xs-6">
+	<h2 style="margin-left:10px; margin-top:8px">News</h2></div>
+	<div class="col-xs-6">
+	
+	 <!-- Profile-->
+	<div class="col-xs-11">
+	<li class="dropdown pull-right">
+								<a class="dropdown-toggle pro" data-toggle="dropdown" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu sub">
+								  <a href="edit profile.html"><li><i class="fa fa-user" aria-hidden="true"></i>Edit Profile</li></a>
+								  <a href="add admin.html"><li><i class="fa fa-user-plus" aria-hidden="true"></i>Add admin</li></a>
+								  <a href=""><li><i class="fa fa-sign-out" aria-hidden="true"></i>Log out</li></a>
+								</ul>
+							  </li></div>
+							  
+							   <!-- Settings -->
+							  <div class="col-xs-1">
+								<li class="dropdown pull-right">
+								<a class="dropdown-toggle pro" data-toggle="dropdown" href="#"><i class="fa fa-gear" aria-hidden="true"></i> </a>
+								<ul class="dropdown-menu sub sub-long">
+								 <li><h3>Set theme color</h3>
+								  <div >
+								    <label class="radio-inline" style=" border-bottom: 3px solid #cc312c; width:20%"><input type="radio" name="optradio">Red</label>
+									<label class="radio-inline" style=" border-bottom: 3px solid #5aa644; width:20%"><input type="radio" name="optradio">Green</label>
+									<label class="radio-inline" style=" border-bottom: 3px solid #5bc0de; width:20%"><input type="radio" name="optradio">Blue</label>
+									<label class="radio-inline" style=" border-bottom: 3px solid #f0ad4e; width:20%"><input type="radio" name="optradio">Orange</label>
+								  </div></li>
+								  <li><h3>Set site title</h3>
+									<input class="form-control" id="site-title" name="site-title" placeholder="site-title" type="text"></li>
+									
+									<li><h3>Set title-bar logo</h3>
+									<input id="a" name="a" placeholder="Add a photo" type="file"></li>
+									
+									<li><h3>Set site logo</h3>
+									<input id="a" name="a" placeholder="Add a photo" type="file"></li>
+									
+									<li><h3>Set address</h3>
+									<input class="form-control" id="site-title" name="address" placeholder="Company address" type="text">
+									<input class="form-control" id="site-title" name="cell" placeholder="Mobile number" type="text" style="margin-top:5px;">
+									<input class="form-control" id="site-title" name="mail" placeholder="Email address" type="text" style="margin-top:5px;">
+									<button class="btn btn-primary" type="submit" style="width:100%; margin-top:15px;">Done</button></li>
+								
+								
+								</ul>
+							  </li>
+				</div>
+				</div>
+							  
+				
+							  </div>
+	</div>
+	
+	 <!-- Sidebar -->
+		<div class="row container-fluid">
+				<div class="col-xs-2 menu">
+				<div class="row menu-head">
+				<div class="col-sm-4">
+				<img src="img/pro.jpg" class="img-circle img-responsive" style="padding-left:10px;"></img>
+				</div>
+				<div class="col-sm-8">
+				<h5>Tazwar Utshas</h5>
+				<h6><i class="fa fa-circle" aria-hidden="true" style="color:#2b2; font-size:12px; padding-top:-12px;"> </i> Online</h6> 
+				</div>
+				</div>
+				<ul>
+				<a href="admin.html"><li><h5><i class="fa fa-bar-chart" aria-hidden="true"></i> Dashboard</h5></li></a>
+				<a href="category.html"><li><h5><i class="fa fa-list" aria-hidden="true"></i> Category</h5></li></a>
+				<a href="news.html"><li><h5><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</h5></li></a>
+				<a href="inbox.html"><li><h5><i class="fa fa-envelope" aria-hidden="true"></i> Inbox</h5></li></a>
+				<a href="slideshow.html"><li><h5><i class="fa fa-photo" aria-hidden="true"></i> Slideshow</h5></li></a>
+				<a href="add links.html"><li><h5><i class="fa fa-link" aria-hidden="true"></i> Add links</h5></li></a>
+				<li><h5><input type="checkbox" checked data-toggle="toggle" style="margin:3px 5px;"> Enable Advertise</h5></li></ul> 
+				</div>
+				
+				
+				 <!-- Main content-->
+				<div class="col-xs-10 content">
+				<div class="cat">
+				<div class="row">
+				<div class="col-sm-9">
+					<h3>Inbox</h3>
+				
+						<ul class="inbox">
+							<li class="unread"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="#msg" data-toggle="modal" data-target="#msg">Message from tazwarutshas@gmail.com - Hello! I'm tazwar utshas and I really loved your website...</a></li>
+							<li class="unread"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from shoaibaabesh@gmail.com - Hey! this site is simply awesome. I would love to see some...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from naimulaoyan@gmail.com - I read your news artcle on drags, that was published yesterday...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from shakibalhassan@gmail.com - Hello! I'm tazwar utshas and I really loved your website...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from tamimiqbal@gmail.com - Hey! this site is simply awesome. I would love to see some...</a></li>
+							<li class="unread"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from mustafizurrahman@gmail.com - I read your news artcle on drags, that was published yesterday...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from breat_lee@gmail.com - Hello! I'm tazwar utshas and I really loved your website...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from shabbirrahman@gmail.com - Hey! this site is simply awesome. I would love to see some...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from tazwarutshas@gmail.com - I read your news artcle on drags, that was published yesterday...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from shoaibaabesh@gmail.com - Hello! I'm tazwar utshas and I really loved your website...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from naimulaoyan@gmail.com - Hey! this site is simply awesome. I would love to see some...</a></li>
+							<li class="unread"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from shakibalhassan@gmail.com - I read your news artcle on drags, that was published yesterday...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from tamimiqbal@gmail.com - Hello! I'm tazwar utshas and I really loved your website...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from mustafizurrahman@gmail.com - Hey! this site is simply awesome. I would love to see some...</li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from breat_lee@gmail.com - I read your news artcle on drags, that was published yesterday...</a></li>
+							<li class="read"><input type="checkbox" data-toggle="toggle" style="margin:3px 5px;"><a href="">Message from shabbirrahman@gmail.com - Hello! I'm tazwar utshas and I really loved your website...</a></li>
+							</ul>
+							
+							<!--MODAL-->
+							<div id="msg" class="modal fade " role="dialog">
+							  <div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									
+									<h4 class="modal-title black1">From: tazwarutshas@gmail.com</h4>
+								  </div>
+								  <div class="modal-body">
+								    <b>Name: Tazwar Utshas</b><br><br>
+									<p>Hello! I'm Tazwar Utshas and I really loved your website layout design. Btw, I want to publish an interesting news to your website. Can you plz give me instruction about what should I do to publish my news into your website. Thanx in advance. :)</p>
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+
+
+				</div>
+				
+				 <!-- Right side message info showing and delete option providing portion-->
+						<div class="col-sm-3" style="margin-top:40px; padding-left:40px;">
+							<ul class="list-group inbox-del">
+								  <li class="list-group-item list-group-item-success">Inbox: 17</li>
+								  <li class="list-group-item list-group-item-info">Read: 13</li>
+								  <li class="list-group-item list-group-item-danger">Unread: 4</li>
+								</ul>
+						
+							<div class="btn-group inbox-del">
+								  <button type="button" class="btn btn-danger del-half"> Delete </button>
+								  <button type="button" class="btn btn-danger del-half"> Delete all </button>
+								</div>
+							
+							<p class="notice">* Check all the messages you want to delete and then press delete button. In order to delete all the messages, click the delete all button.</p>
+						</div>
+						</div>
+				</div>
+		</div>
+</body>
+</html>

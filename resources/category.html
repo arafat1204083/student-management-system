@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Theme Resoft</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,500" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class="header">
+	<div class="row">
+	<!--Site title-->
+	<div class="col-xs-6">
+	<h2 style="margin-left:10px; margin-top:8px">News</h2></div>
+	<div class="col-xs-6">
+	<!--profile-->
+	<div class="col-xs-11">
+	<li class="dropdown pull-right">
+								<a class="dropdown-toggle pro" data-toggle="dropdown" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu sub">
+								  <a href="edit profile.html"><li><i class="fa fa-user" aria-hidden="true"></i>Edit Profile</li></a>
+								  <a href="add admin.html"><li><i class="fa fa-user-plus" aria-hidden="true"></i>Add or remove</li></a>
+								  <a href=""><li><i class="fa fa-sign-out" aria-hidden="true"></i>Log out</li></a>
+								</ul>
+							  </li></div>
+							  <!--Settings -->
+							  <div class="col-xs-1">
+								<li class="dropdown pull-right">
+								<a class="dropdown-toggle pro" data-toggle="dropdown" href="#"><i class="fa fa-gear" aria-hidden="true"></i> </a>
+								<ul class="dropdown-menu sub sub-long">
+								  <li><h3>Set theme color</h3>
+								  <div >
+								    <label class="radio-inline" style=" border-bottom: 3px solid #cc312c; width:20%"><input type="radio" name="optradio">Red</label>
+									<label class="radio-inline" style=" border-bottom: 3px solid #5aa644; width:20%"><input type="radio" name="optradio">Green</label>
+									<label class="radio-inline" style=" border-bottom: 3px solid #5bc0de; width:20%"><input type="radio" name="optradio">Blue</label>
+									<label class="radio-inline" style=" border-bottom: 3px solid #f0ad4e; width:20%"><input type="radio" name="optradio">Orange</label>
+								  </div></li>
+								  <li><h3>Set site title</h3>
+									<input class="form-control" id="site-title" name="site-title" placeholder="site-title" type="text"></li>
+									
+									<li><h3>Set title-bar logo</h3>
+									<input id="a" name="a" placeholder="Add a photo" type="file"></li>
+									
+									<li><h3>Set site logo</h3>
+									<input id="a" name="a" placeholder="Add a photo" type="file"></li>
+									
+									<li><h3>Set address</h3>
+									<input class="form-control" id="site-title" name="address" placeholder="Company address" type="text">
+									<input class="form-control" id="site-title" name="cell" placeholder="Mobile number" type="text" style="margin-top:5px;">
+									<input class="form-control" id="site-title" name="mail" placeholder="Email address" type="text" style="margin-top:5px;">
+									<button class="btn btn-primary" type="submit" style="width:100%; margin-top:15px;">Done</button></li>
+								
+								</ul>
+							  </li>
+				</div>
+				</div>
+							  
+				
+							  </div>
+	</div>
+	
+	 <!-- Sidebar -->
+		<div class="row container-fluid">
+				<div class="col-xs-2 menu">
+				<div class="row menu-head">
+				<div class="col-sm-4">
+				<img src="img/pro.jpg" class="img-circle img-responsive" style="padding-left:10px;"></img>
+				</div>
+				<div class="col-sm-8">
+				<h5>Tazwar Utshas</h5>
+				<h6><i class="fa fa-circle" aria-hidden="true" style="color:#2b2; font-size:12px; padding-top:-12px;"> </i> Online</h6> 
+				</div>
+				</div>
+				<ul>
+				<a href="admin.html"><li><h5><i class="fa fa-bar-chart" aria-hidden="true"></i> Dashboard</h5></li></a>
+				<a href="category.html"><li><h5><i class="fa fa-list" aria-hidden="true"></i> Category</h5></li></a>
+				<a href="news.html"><li><h5><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</h5></li></a>
+				<a href="inbox.html"><li><h5><i class="fa fa-envelope" aria-hidden="true"></i> Inbox</h5></li></a>
+				<a href="slideshow.html"><li><h5><i class="fa fa-photo" aria-hidden="true"></i> Slideshow</h5></li></a>
+				<a href="add links.html"><li><h5><i class="fa fa-link" aria-hidden="true"></i> Add links</h5></li></a>
+				<li><h5><input type="checkbox" checked data-toggle="toggle" style="margin:3px 5px;"> Enable Advertise</h5></li></ul> 
+				</div>
+				
+				 <!-- Main content -->
+				 
+				<div class="col-xs-10 content">
+				<div class="cat">
+				<div class="row">
+				<div class="col-sm-4">
+				<h3> Category</h3>
+				<div class="container-fluid">
+					  <form class="form-horizontal" role="form">
+						<div class="form-group">
+						  <h3 class="category-h">Category name:</h3>
+							<input type="text" class="form-control" id="add-cat" placeholder="Add a category">
+							<h3 class="category-h">Select parent</h3>
+								<select name="category" style="width:100%; padding:6px 10px;">
+								  <option value="cat-0">none</option>
+								  <option value="cat-1">Category name</option>
+								  <option value="cat-2">Category second</option>
+								  <option value="cat-3">Third category</option>
+								  <option value="cat-4">Category four</option>
+								</select><br>
+								<p class="notice category-h">* In order to add a category, select parent category- "none". In order to add a sub category, select the parent category that you want to make the parent of your sub category. </p> <br> 
+							<button type="submit" class="btn btn-primary category-h" title="add category">Add category</button>
+						</div>
+					  </form>
+				</div>
+				</div>
+				<div class="col-sm-8" style="padding-left:100px; padding-right: 50px; margin-top:40px;">
+				<h3 style="margin-top:30px;">Existing categories</h3>
+						<div class="form-group row cat">
+						  <div class="col-sm-4">
+							<h4>Category name</h4>
+						  </div>
+						  <div class="col-sm-3">
+							<h4>32 Posts</h4>
+						  </div>
+							<div class="col-sm-5 btn-group"><button type="submit" class="btn btn-info" title="move up"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-success" title="move down"><i class="fa fa-level-down" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-warning" title="edit" data-toggle="modal" data-target="#ctg"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-danger" title="remove"><i class="fa fa-times" aria-hidden="true"></i></button></div>
+							
+						</div>
+					  <div class="form-group row cat">
+						  <div class="col-sm-4">
+							<h4>Category second</h4>
+						  </div>
+						  <div class="col-sm-3">
+							<h4>29 Posts</h4>
+						  </div>
+							<div class="col-sm-5 btn-group"><button type="submit" class="btn btn-info" title="move up"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-success" title="move down"><i class="fa fa-level-down" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-warning" title="edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-danger" title="remove"><i class="fa fa-times" aria-hidden="true"></i></button></div>
+							
+						</div>
+						<div class="form-group row cat">
+						  <div class="col-sm-4">
+							<h4>Third category</h4>
+						  </div>
+						  <div class="col-sm-3">
+							<h4>22 Posts</h4>
+						  </div>
+							<div class="col-sm-5 btn-group"><button type="submit" class="btn btn-info" title="move up"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-success" title="move down"><i class="fa fa-level-down" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-warning" title="edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-danger" title="remove"><i class="fa fa-times" aria-hidden="true"></i></button></div>
+							
+						</div>
+						
+						<div class="form-group row cat">
+						  <div class="col-sm-4">
+							<h4>Category four</h4>
+						  </div>
+						  <div class="col-sm-3">
+							<h4>28 Posts</h4>
+						  </div>
+							<div class="col-sm-5 btn-group"><button type="submit" class="btn btn-info" title="move up"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-success" title="move down"><i class="fa fa-level-down" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-warning" title="edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-danger" title="remove"><i class="fa fa-times" aria-hidden="true"></i></button></div>
+							
+							</div>
+					  
+					   <div class="form-group row cat">
+						  <div class="col-sm-4">
+							<h4>Fifth category</h4>
+						  </div>
+						  <div class="col-sm-3">
+							<h4>21 Posts</h4>
+						  </div>
+							<div class="col-sm-5 btn-group"><button type="submit" class="btn btn-info" title="move up"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-success" title="move down"><i class="fa fa-level-down" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-warning" title="edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
+							<button type="submit" class="btn btn-danger" title="remove"><i class="fa fa-times" aria-hidden="true"></i></button></div>
+							
+							</div>
+					  
+					  <p class="notice category-h">* Hover over the buttons and hold for one or two seconds in order to know the functionalities of that button.</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				
+				<!--MODAL-->
+							<div id="ctg" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content cat">
+								  <div class="modal-header" style="color:#111;">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									
+									<h4 class="modal-title">Category name</h4>
+								  </div>
+								  <div class="modal-body" style="color:#111;">
+								   <h3 class="category-h">Category name:</h3>
+									<input type="text" class="form-control" id="add-cat" placeholder="Add a category">
+									<h3 class="category-h">Select parent</h3>
+										<select name="category" style="width:100%; padding:6px 10px;">
+										  <option value="cat-0">none</option>
+										  <option value="cat-1">Category name</option>
+										  <option value="cat-2">Category second</option>
+										  <option value="cat-3">Third category</option>
+										  <option value="cat-4">Category four</option>
+										</select><br>
+									<button type="submit" class="btn btn-primary category-h" title="add category">Add category</button>
+								
+								   </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+		</div>
+</body>
+</html>
